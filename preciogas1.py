@@ -4,7 +4,7 @@ import joblib
 
 # Título e imagen
 st.write("# Predicción del precio de gasolina por estado")
-st.image("gasolina.jpg", caption="Precio estimado de gasolina por estado")  # Asegúrate de tener esta imagen en la misma carpeta
+st.image("precio_gas.jpg", caption="Precio estimado de gasolina por estado")  # Asegúrate de tener esta imagen en la misma carpeta
 
 # Función para entrada de datos del usuario
 def user_input_features():
